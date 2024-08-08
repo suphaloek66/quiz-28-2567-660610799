@@ -13,14 +13,6 @@ export default function Comment({
     <div>
       your code for Comment component here ...
       {/* You can use map-loop to render Reply component here */}
-      {replies.map((Reply, i) =>{
-        return <Reply Image={Reply.ImagePath}
-        username={Reply.username}
-        replyTitle={Reply.replyTitle}
-        likes={Reply.likes}
-        key={Reply.username+i}
-      ></Reply>;
-      })}
     </div>
   );
 }
