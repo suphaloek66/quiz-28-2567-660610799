@@ -19,7 +19,7 @@ export default function Comment({
         replyTitle={Reply.replyTitle}
         likes={Reply.likes}
         key={Reply.username+i}
-      />;
+      ></Reply>;
       })}
     </div>
   );
