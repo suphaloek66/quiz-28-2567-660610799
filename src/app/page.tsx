@@ -1,7 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { useState } from "react";
+import { comments } from "@/libs/comments";
 
 export default function Home() {
+
+  const [isLoading, setIsLoading] =useState(false);
+
+
   return (
     <div
       style={{ minHeight: "100vh", backgroundColor: "ghostwhite" }}
@@ -22,7 +28,7 @@ export default function Home() {
               className="rounded-circle"
               style={{ objectFit: "cover" }}
             />
-            <span className="fw-semibold fs-5">Chayanin Suatap 650610560</span>
+            <span className="fw-semibold fs-5">Suphaloek Khueanphet 660610799</span>
           </div>
 
           <span>Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207</span>
@@ -79,8 +85,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-
+        
         {/* map-loop render Comment component here */}
+        {}
       </div>
     </div>
   );
