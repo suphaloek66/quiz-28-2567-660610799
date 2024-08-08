@@ -5,7 +5,6 @@ import { comments } from "@/libs/comments";
 
 export default function Home() {
 
-  const [isLoading, setIsLoading] =useState(false);
 
 
   return (
@@ -22,7 +21,7 @@ export default function Home() {
         <div className="vstack gap-3">
           <div className="d-flex align-items-center gap-3">
             <img
-              src="/profileImages/handsome.jpg"
+              src="/profileImages/picture.jpg"
               width="48"
               height="48"
               className="rounded-circle"

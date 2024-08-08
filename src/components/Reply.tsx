@@ -4,8 +4,6 @@ import { ReplyProps } from "@/libs/types";
 
 export default function Reply({ ImagePath, username, replyTitle, likes }:ReplyProps) {
   return <div className="d-flex">your code for Reply component ...
-    
-      
     <img src={ImagePath}
     width={30}
     height={30}
